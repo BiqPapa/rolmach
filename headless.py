@@ -49,7 +49,7 @@ while i < max_clicks:
                 i += 1
                 if i >= max_clicks:
                     break
-                time.sleep(1)
+                time.sleep(30)
             except Exception as e:
                 print(f"An error occurred during clicking button: {e}")
                 continue
