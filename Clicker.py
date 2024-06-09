@@ -31,7 +31,7 @@ driver.get('https://role-me.ru/my/ideas')
 time.sleep(7)
 
 i = 0
-max_clicks = 500
+max_clicks = 80000
 while i < max_clicks:
     try:
         
