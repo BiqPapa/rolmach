@@ -30,7 +30,7 @@ service = ChromeService(executable_path=ChromeDriverManager().install())
 driver = webdriver.Chrome(service=service, options=chrome_options)
 
 
-driver.get('https://role-me.ru/my/ideas')
+driver.get('______________')
 time.sleep(7)
 
 i = 0
